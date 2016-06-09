@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Invoques the ScoreChange Method passing "1" for the Home Team and "true" to increase
                 mGame.ScoreChange(1,true);
+                // Then asks to refresh the screen
+                RefreshScreen();
             }
         });
 
@@ -51,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Invoques the ScoreChange Method passing "1" for the Home Team and "false" to decrease
                 mGame.ScoreChange(1,false);
+                // Then asks to refresh the screen
+                RefreshScreen();
             }
         });
 
@@ -59,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Invoques the ScoreChange Method passing "2" for the Visit Team and "true" to increase
                 mGame.ScoreChange(2,true);
+                // Then asks to refresh the screen
+                RefreshScreen();
             }
         });
 
@@ -67,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Invoques the ScoreChange Method passing "2" for the Visit Team and "false" to decrease
                 mGame.ScoreChange(2,false);
+                // Then asks to refresh the screen
+                RefreshScreen();
             }
         });
 
