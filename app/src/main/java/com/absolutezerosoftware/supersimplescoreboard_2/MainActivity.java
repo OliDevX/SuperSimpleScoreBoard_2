@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Button;
 
 // These last two imports were used for the exit dialog
 import android.app.AlertDialog;
@@ -28,6 +29,48 @@ public class MainActivity extends AppCompatActivity {
         // Set listeners to home_layout & visit_layout
         View mLayoutHome = (View) findViewById(R.id.home_layout);
         View mLayoutVisit = (View) findViewById(R.id.visit_layout);
+
+        // Declare varibles for buttons listeners
+        Button mButtonHomeUp = (Button) findViewById(R.id.home_button_up);
+        Button mButtonHomeDown = (Button) findViewById(R.id.home_button_down);
+        Button mButtonVisitUp = (Button) findViewById(R.id.visit_button_up);
+        Button mButtonVisitDown = (Button) findViewById(R.id.visit_button_down);
+
+        // Listeners for the 4 Buttons
+
+        mButtonHomeUp.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // Invoques the ScoreChange Method passing "1" for the Home Team and "true" to increase
+                mGame.ScoreChange(1,true);
+            }
+        });
+
+        mButtonHomeDown.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // Invoques the ScoreChange Method passing "1" for the Home Team and "false" to decrease
+                mGame.ScoreChange(1,false);
+            }
+        });
+
+        mButtonVisitUp.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // Invoques the ScoreChange Method passing "2" for the Visit Team and "true" to increase
+                mGame.ScoreChange(2,true);
+            }
+        });
+
+        mButtonVisitDown.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // Invoques the ScoreChange Method passing "2" for the Visit Team and "false" to decrease
+                mGame.ScoreChange(2,false);
+            }
+        });
+
+        // Listeners for the 2 Layouts - - - - -
 
         mLayoutHome.setOnClickListener(new View.OnClickListener(){
             @Override

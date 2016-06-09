@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/azsoftware_plus_sign"
-                        android:id="@+id/button3"
+                        android:id="@+id/home_button_up"
                         android:textSize="@dimen/abc_text_size_button_material" />
 
                     <Button
@@ -97,7 +97,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/azsoftware_minus_sign"
-                        android:id="@+id/button4"
+                        android:id="@+id/home_button_down"
                         android:textSize="@dimen/abc_text_size_button_material" />
                 </LinearLayout>
             </LinearLayout>
@@ -212,7 +212,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/azsoftware_plus_sign"
-                        android:id="@+id/button"
+                        android:id="@+id/visit_button_up"
                         android:textSize="@dimen/abc_text_size_button_material" />
 
                     <Button
@@ -220,7 +220,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/azsoftware_minus_sign"
-                        android:id="@+id/button2"
+                        android:id="@+id/visit_button_down"
                         android:textSize="@dimen/abc_text_size_button_material" />
                 </LinearLayout>
             </LinearLayout>
