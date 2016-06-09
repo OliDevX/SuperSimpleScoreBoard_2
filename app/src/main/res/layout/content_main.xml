@@ -43,89 +43,49 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_label_string"
+                    android:text="@string/azsoftware_home_label_string"
                     android:id="@+id/home_label_textview"
-                    android:autoText="false" />
+                    android:autoText="false"
+                    android:textSize="24dp" />
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:id="@+id/home_third_digit_textview"
-                        android:text="@string/digit_one" />
+                        android:text="@string/azsoftware_digit_one"
+                        android:textSize="84dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         style="@style/TextAppearance.AppCompat.Display3"
-                        android:id="@+id/home_second_digit_textview" />
+                        android:id="@+id/home_second_digit_textview"
+                        android:textSize="84dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         android:id="@+id/home_first_digit_textview"
-                        style="@style/TextAppearance.AppCompat.Display3" />
+                        style="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="84dp" />
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:id="@+id/set_layout">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/set_label_string"
-                        android:id="@+id/set_label_textview"
-                        android:autoText="false" />
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="24dp"
-                            android:layout_height="match_parent"></LinearLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/digit_zero"
-                            android:id="@+id/set_first_digit_textview"
-                            style="@style/TextAppearance.AppCompat.Display2"
-                            android:singleLine="true" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/digit_zero"
-                            android:id="@+id/set_second_digit_textview"
-                            style="@style/TextAppearance.AppCompat.Display2" />
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="24dp"
-                            android:layout_height="match_parent" />
-                    </LinearLayout>
-
-                </LinearLayout>
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal">
 
             </LinearLayout>
 
@@ -139,8 +99,88 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/visit_label_string"
+                    android:text="@string/azsoftware_visit_label_string"
                     android:id="@+id/visit_label_textview"
+                    android:autoText="false"
+                    android:textSize="24dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/azsoftware_digit_one"
+                        android:id="@+id/visit_third_digit_textview"
+                        style="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="84dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/visit_second_digit_textview"
+                        style="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="84dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/visit_first_digit_textview"
+                        style="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="84dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_plus_sign"
+                    android:id="@+id/home_button_up"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_minus_sign"
+                    android:id="@+id/home_button_down"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:id="@+id/linearLayout"
+                android:paddingBottom="12dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_set_label_string"
+                    android:id="@+id/textView"
                     android:autoText="false" />
 
                 <LinearLayout
@@ -148,29 +188,55 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/digit_one"
-                        android:id="@+id/visit_third_digit_textview"
-                        style="@style/TextAppearance.AppCompat.Display3" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent" />
 
                     <TextView
+                        style="@style/TextAppearance.AppCompat.Display2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
-                        android:id="@+id/visit_second_digit_textview"
-                        style="@style/TextAppearance.AppCompat.Display3" />
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/textView2"
+                        android:singleLine="true" />
 
                     <TextView
+                        style="@style/TextAppearance.AppCompat.Display2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
-                        android:id="@+id/visit_first_digit_textview"
-                        style="@style/TextAppearance.AppCompat.Display3" />
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/textView3" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent" />
                 </LinearLayout>
             </LinearLayout>
 
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_plus_sign"
+                    android:id="@+id/visit_button_up"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_minus_sign"
+                    android:id="@+id/visit_button_down"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
