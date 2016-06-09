@@ -50,8 +50,9 @@
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -78,82 +79,14 @@
                         android:textSize="84dp" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center" >
-
-                    <Button
-                        style="?android:attr/buttonStyleSmall"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/azsoftware_plus_sign"
-                        android:id="@+id/home_button_up"
-                        android:textSize="@dimen/abc_text_size_button_material" />
-
-                    <Button
-                        style="?android:attr/buttonStyleSmall"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/azsoftware_minus_sign"
-                        android:id="@+id/home_button_down"
-                        android:textSize="@dimen/abc_text_size_button_material" />
-                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="24dp"
                 android:layout_height="match_parent"
                 android:gravity="bottom|center_horizontal">
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:id="@+id/linearLayout2"
-                    android:paddingBottom="12dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/azsoftware_set_label_string"
-                        android:id="@+id/textView4"
-                        android:autoText="false" />
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" >
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="12dp"
-                            android:layout_height="match_parent" />
-
-                        <TextView
-                            style="@style/TextAppearance.AppCompat.Display2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/azsoftware_digit_zero"
-                            android:id="@+id/textView5"
-                            android:singleLine="true" />
-
-                        <TextView
-                            style="@style/TextAppearance.AppCompat.Display2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/azsoftware_digit_zero"
-                            android:id="@+id/textView6" />
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="12dp"
-                            android:layout_height="match_parent" />
-                    </LinearLayout>
-                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -173,8 +106,9 @@
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -201,30 +135,108 @@
                         android:textSize="84dp" />
                 </LinearLayout>
 
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_plus_sign"
+                    android:id="@+id/home_button_up"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_minus_sign"
+                    android:id="@+id/home_button_down"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:id="@+id/linearLayout"
+                android:paddingBottom="12dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_set_label_string"
+                    android:id="@+id/textView"
+                    android:autoText="false" />
+
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center">
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
 
-                    <Button
-                        style="?android:attr/buttonStyleSmall"
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Display2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/azsoftware_plus_sign"
-                        android:id="@+id/visit_button_up"
-                        android:textSize="@dimen/abc_text_size_button_material" />
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/textView2"
+                        android:singleLine="true" />
 
-                    <Button
-                        style="?android:attr/buttonStyleSmall"
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Display2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/azsoftware_minus_sign"
-                        android:id="@+id/visit_button_down"
-                        android:textSize="@dimen/abc_text_size_button_material" />
+                        android:text="@string/azsoftware_digit_zero"
+                        android:id="@+id/textView3" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent" />
                 </LinearLayout>
             </LinearLayout>
 
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_plus_sign"
+                    android:id="@+id/visit_button_up"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azsoftware_minus_sign"
+                    android:id="@+id/visit_button_down"
+                    android:textSize="@dimen/abc_text_size_button_material" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
