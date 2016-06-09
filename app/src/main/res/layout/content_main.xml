@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_label_string"
+                    android:text="@string/azsoftware_home_label_string"
                     android:id="@+id/home_label_textview"
                     android:autoText="false"
                     android:textSize="24dp" />
@@ -58,13 +58,13 @@
                         android:layout_height="wrap_content"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:id="@+id/home_third_digit_textview"
-                        android:text="@string/digit_one"
+                        android:text="@string/azsoftware_digit_one"
                         android:textSize="84dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:id="@+id/home_second_digit_textview"
                         android:textSize="84dp" />
@@ -72,7 +72,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         android:id="@+id/home_first_digit_textview"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:textSize="84dp" />
@@ -115,7 +115,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/set_label_string"
+                        android:text="@string/azsoftware_set_label_string"
                         android:id="@+id/textView4"
                         android:autoText="false" />
 
@@ -133,7 +133,7 @@
                             style="@style/TextAppearance.AppCompat.Display2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/digit_zero"
+                            android:text="@string/azsoftware_digit_zero"
                             android:id="@+id/textView5"
                             android:singleLine="true" />
 
@@ -141,7 +141,7 @@
                             style="@style/TextAppearance.AppCompat.Display2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/digit_zero"
+                            android:text="@string/azsoftware_digit_zero"
                             android:id="@+id/textView6" />
 
                         <LinearLayout
@@ -162,7 +162,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/visit_label_string"
+                    android:text="@string/azsoftware_visit_label_string"
                     android:id="@+id/visit_label_textview"
                     android:autoText="false"
                     android:textSize="24dp" />
@@ -175,7 +175,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_one"
+                        android:text="@string/azsoftware_digit_one"
                         android:id="@+id/visit_third_digit_textview"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:textSize="84dp" />
@@ -183,7 +183,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         android:id="@+id/visit_second_digit_textview"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:textSize="84dp" />
@@ -191,7 +191,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/digit_zero"
+                        android:text="@string/azsoftware_digit_zero"
                         android:id="@+id/visit_first_digit_textview"
                         style="@style/TextAppearance.AppCompat.Display3"
                         android:textSize="84dp" />
