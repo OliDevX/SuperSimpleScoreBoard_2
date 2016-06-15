@@ -38,7 +38,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:id="@+id/home_layout">
+                android:id="@+id/home_layout_extended"
+                android:padding="12dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -46,13 +47,14 @@
                     android:text="@string/azsoftware_home_label_string"
                     android:id="@+id/home_label_textview"
                     android:autoText="false"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="148dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:id="@+id/home_layout">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -83,18 +85,11 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:gravity="bottom|center_horizontal">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:id="@+id/visit_layout">
+                android:id="@+id/visit_layout_extended"
+                android:padding="12dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -102,13 +97,14 @@
                     android:text="@string/azsoftware_visit_label_string"
                     android:id="@+id/visit_label_textview"
                     android:autoText="false"
-                    android:textSize="24dp" />
+                    android:textSize="24sp" />
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="148dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:id="@+id/visit_layout">
 
                     <TextView
                         android:layout_width="wrap_content"
